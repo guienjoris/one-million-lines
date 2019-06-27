@@ -93,7 +93,7 @@ nav li {
 
 #home img {
   position: relative;
-  top: 30%;
+  top: 20vh;
 }
 
 .orange {
@@ -223,6 +223,16 @@ footer img {
     color: red;
     cursor: -webkit-grab;
     cursor: grab;
+  }
+  a.menu {
+    display: block;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  a.menu:hover {
+    border-bottom: 5px solid white;
   }
 }
 
